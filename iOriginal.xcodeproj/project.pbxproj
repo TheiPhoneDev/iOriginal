@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA091E102CF51DE000E1F784 /* iPadViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA091E0F2CF51DE000E1F784 /* iPadViewDataModel.swift */; };
+		DA091E122CF51E6300E1F784 /* iPadWallpapersGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA091E112CF51E6300E1F784 /* iPadWallpapersGalleryView.swift */; };
+		DA1BDB162C5FB47D00A63FBD /* AppIconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1BDB152C5FB47D00A63FBD /* AppIconsViewController.swift */; };
+		DA1BDB182C5FB4AE00A63FBD /* AppIconsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1BDB172C5FB4AE00A63FBD /* AppIconsDataModel.swift */; };
+		DA1BDB1A2C5FB8B100A63FBD /* ExtraFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1BDB192C5FB8B100A63FBD /* ExtraFeaturesViewController.swift */; };
+		DA1BDB1C2C5FC41400A63FBD /* IconPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1BDB1B2C5FC41400A63FBD /* IconPreviewView.swift */; };
+		DA1DC70B2D25E2E9004E9357 /* AppsiOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1DC70A2D25E2E9004E9357 /* AppsiOSView.swift */; };
+		DA1DC70D2D25E2FE004E9357 /* AppsmacOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1DC70C2D25E2FE004E9357 /* AppsmacOSView.swift */; };
+		DA22B9B52CC6D8C100FF5CE9 /* UpdateKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA22B9B42CC6D8C100FF5CE9 /* UpdateKit */; };
+		DA22BA152CC6F30500FF5CE9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF7B8472C6A6FD8007807D6 /* WidgetKit.framework */; };
+		DA22BA162CC6F30500FF5CE9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF7B8492C6A6FD8007807D6 /* SwiftUI.framework */; };
+		DA22BA272CC6F30700FF5CE9 /* iOriginalWidgetsExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DA22BA142CC6F30500FF5CE9 /* iOriginalWidgetsExtensionExtension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA48432F2C81F3730041B4AB /* iPhoneViewControllerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48432E2C81F3730041B4AB /* iPhoneViewControllerHandler.swift */; };
+		DA4843312C81F39E0041B4AB /* iPadViewControllerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4843302C81F39E0041B4AB /* iPadViewControllerHandler.swift */; };
+		DA5221A12CCAD7DF00765B82 /* PhoneLiveActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5221A02CCAD7DF00765B82 /* PhoneLiveActivityView.swift */; };
+		DA5221A32CCAD80600765B82 /* PhoneLiveActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5221A22CCAD7F700765B82 /* PhoneLiveActivityModel.swift */; };
+		DA5221A42CCADDDC00765B82 /* PhoneLiveActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5221A22CCAD7F700765B82 /* PhoneLiveActivityModel.swift */; };
+		DA5221A52CCADE1200765B82 /* PhoneLiveActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5221A02CCAD7DF00765B82 /* PhoneLiveActivityView.swift */; };
+		DA5221A72CCAE8B100765B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB215272C4AD3D800C9AF84 /* Assets.xcassets */; };
+		DA57F3DD2D25502400A327FF /* ViewContentsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57F3DC2D25502400A327FF /* ViewContentsFile.swift */; };
+		DA653E642D84B4A700AB014B /* MacOSAppIconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA653E632D84B49700AB014B /* MacOSAppIconsViewController.swift */; };
+		DA653E662D84B5D700AB014B /* MacIconPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA653E652D84B5CD00AB014B /* MacIconPreview.swift */; };
+		DA7E47A52C5D11CB00E61911 /* MotionWallpaperDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E47A42C5D11CB00E61911 /* MotionWallpaperDataModel.swift */; };
+		DA7E47A72C5D203700E61911 /* AnimatedWallpapersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E47A62C5D203700E61911 /* AnimatedWallpapersViewController.swift */; };
+		DA7E47AA2C5D2FFF00E61911 /* iOS11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E47A92C5D2FFF00E61911 /* iOS11View.swift */; };
+		DA7E47AC2C5D300A00E61911 /* iOS12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E47AB2C5D300A00E61911 /* iOS12View.swift */; };
+		DA7E47AE2C5D301500E61911 /* iOS13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E47AD2C5D301500E61911 /* iOS13View.swift */; };
+		DA7E47B02C5D302800E61911 /* iOS14View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E47AF2C5D302800E61911 /* iOS14View.swift */; };
+		DA7E47B22C5D303600E61911 /* iOS15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E47B12C5D303600E61911 /* iOS15View.swift */; };
+		DA7E47B42C5D378300E61911 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7E47B32C5D378300E61911 /* VideoDetailView.swift */; };
+		DAA80EF82C5302AD00B6D661 /* AppIconPickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA80EF72C5302AD00B6D661 /* AppIconPickerModel.swift */; };
+		DAA80EFA2C5302C300B6D661 /* AppIconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA80EF92C5302C300B6D661 /* AppIconPickerView.swift */; };
+		DAA80EFE2C53045400B6D661 /* Markdownosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA80EFD2C53045400B6D661 /* Markdownosaur.swift */; };
+		DAA80F062C5304A900B6D661 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA80F052C5304A900B6D661 /* CreditsViewController.swift */; };
+		DAB215242C4AD3D600C9AF84 /* iOriginalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB215232C4AD3D600C9AF84 /* iOriginalApp.swift */; };
+		DAB215262C4AD3D600C9AF84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB215252C4AD3D600C9AF84 /* ContentView.swift */; };
+		DAB215282C4AD3D800C9AF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB215272C4AD3D800C9AF84 /* Assets.xcassets */; };
+		DAB2152B2C4AD3D800C9AF84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB2152A2C4AD3D800C9AF84 /* Preview Assets.xcassets */; };
+		DAB215332C4AD41F00C9AF84 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DAB215322C4AD41F00C9AF84 /* SDWebImageSwiftUI */; };
+		DAB215352C4AD51A00C9AF84 /* iPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB215342C4AD51A00C9AF84 /* iPhoneViewController.swift */; };
+		DAB215372C4AD53500C9AF84 /* iPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB215362C4AD53500C9AF84 /* iPadViewController.swift */; };
+		DAB215392C4AD54600C9AF84 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB215382C4AD54600C9AF84 /* HomeViewController.swift */; };
+		DAB2153B2C4AD56200C9AF84 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2153A2C4AD56200C9AF84 /* SettingsViewController.swift */; };
+		DAB215402C4AD78D00C9AF84 /* WallpapersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2153F2C4AD78D00C9AF84 /* WallpapersModel.swift */; };
+		DAB215452C4AD8D900C9AF84 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB215442C4AD8D900C9AF84 /* DetailsViewController.swift */; };
+		DAB2154C2C4AE24E00C9AF84 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2154B2C4AE24E00C9AF84 /* AboutViewController.swift */; };
+		DAB215512C4AF73600C9AF84 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = DAB215502C4AF73600C9AF84 /* Markdown */; };
+		DAB215542C4AF75600C9AF84 /* Markdownosaur in Frameworks */ = {isa = PBXBuildFile; productRef = DAB215532C4AF75600C9AF84 /* Markdownosaur */; };
+		DAB56E742C8621FE00813077 /* DeviceHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB56E732C8621FE00813077 /* DeviceHomeViewController.swift */; };
+		DAB9F0B92C4F11840027F4BE /* MacOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9F0B82C4F11840027F4BE /* MacOSViewController.swift */; };
+		DAE84FCF2C4BCA4500A0BA62 /* iPadWallpapersDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE84FCE2C4BCA4500A0BA62 /* iPadWallpapersDataModel.swift */; };
+		DAE90AFE2C739FAD002DBDF3 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE90AFD2C739FAD002DBDF3 /* ThemeView.swift */; };
+		DAF7E5E72C4F1DBD008EC730 /* MacWallpapersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF7E5E62C4F1DBD008EC730 /* MacWallpapersModel.swift */; };
+		DAF80C3F2C8B41D200564C45 /* iPodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80C3E2C8B41D200564C45 /* iPodViewController.swift */; };
+		DAF80C8C2C8B4B4300564C45 /* DetailsViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF80C8B2C8B4B4300564C45 /* DetailsViewController1.swift */; };
+		DAF87B202CD4E23D00A1BF9B /* DeviceChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF87B1F2CD4E23D00A1BF9B /* DeviceChecker.swift */; };
+		DAF87B212CD4E23D00A1BF9B /* DeviceChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF87B1F2CD4E23D00A1BF9B /* DeviceChecker.swift */; };
+		DAFEA5B72CE2995A0077624A /* LiveWallpapersViewControllerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFEA5B62CE2995A0077624A /* LiveWallpapersViewControllerHandler.swift */; };
+		DAFEA5B92CE2997B0077624A /* AppIconsViewControllerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFEA5B82CE2997B0077624A /* AppIconsViewControllerHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA22BA252CC6F30700FF5CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB215182C4AD3D600C9AF84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA22BA132CC6F30500FF5CE9;
+			remoteInfo = iOriginalWidgetsExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAAD49E42CA1C0B6000DCF64 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DA22BA272CC6F30700FF5CE9 /* iOriginalWidgetsExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA091E0F2CF51DE000E1F784 /* iPadViewDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadViewDataModel.swift; sourceTree = "<group>"; };
+		DA091E112CF51E6300E1F784 /* iPadWallpapersGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadWallpapersGalleryView.swift; sourceTree = "<group>"; };
+		DA1BDB152C5FB47D00A63FBD /* AppIconsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconsViewController.swift; sourceTree = "<group>"; };
+		DA1BDB172C5FB4AE00A63FBD /* AppIconsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconsDataModel.swift; sourceTree = "<group>"; };
+		DA1BDB192C5FB8B100A63FBD /* ExtraFeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraFeaturesViewController.swift; sourceTree = "<group>"; };
+		DA1BDB1B2C5FC41400A63FBD /* IconPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPreviewView.swift; sourceTree = "<group>"; };
+		DA1DC70A2D25E2E9004E9357 /* AppsiOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsiOSView.swift; sourceTree = "<group>"; };
+		DA1DC70C2D25E2FE004E9357 /* AppsmacOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsmacOSView.swift; sourceTree = "<group>"; };
+		DA22BA142CC6F30500FF5CE9 /* iOriginalWidgetsExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iOriginalWidgetsExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA48432E2C81F3730041B4AB /* iPhoneViewControllerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneViewControllerHandler.swift; sourceTree = "<group>"; };
+		DA4843302C81F39E0041B4AB /* iPadViewControllerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadViewControllerHandler.swift; sourceTree = "<group>"; };
+		DA5221A02CCAD7DF00765B82 /* PhoneLiveActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLiveActivityView.swift; sourceTree = "<group>"; };
+		DA5221A22CCAD7F700765B82 /* PhoneLiveActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLiveActivityModel.swift; sourceTree = "<group>"; };
+		DA57F3DC2D25502400A327FF /* ViewContentsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContentsFile.swift; sourceTree = "<group>"; };
+		DA5E83232C4E9EE600897AAB /* iOriginal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOriginal.entitlements; sourceTree = "<group>"; };
+		DA653E632D84B49700AB014B /* MacOSAppIconsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSAppIconsViewController.swift; sourceTree = "<group>"; };
+		DA653E652D84B5CD00AB014B /* MacIconPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacIconPreview.swift; sourceTree = "<group>"; };
+		DA7E47A42C5D11CB00E61911 /* MotionWallpaperDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionWallpaperDataModel.swift; sourceTree = "<group>"; };
+		DA7E47A62C5D203700E61911 /* AnimatedWallpapersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedWallpapersViewController.swift; sourceTree = "<group>"; };
+		DA7E47A92C5D2FFF00E61911 /* iOS11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS11View.swift; sourceTree = "<group>"; };
+		DA7E47AB2C5D300A00E61911 /* iOS12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS12View.swift; sourceTree = "<group>"; };
+		DA7E47AD2C5D301500E61911 /* iOS13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13View.swift; sourceTree = "<group>"; };
+		DA7E47AF2C5D302800E61911 /* iOS14View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14View.swift; sourceTree = "<group>"; };
+		DA7E47B12C5D303600E61911 /* iOS15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS15View.swift; sourceTree = "<group>"; };
+		DA7E47B32C5D378300E61911 /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		DA7E47B52C5D4D2900E61911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DAA80EF72C5302AD00B6D661 /* AppIconPickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconPickerModel.swift; sourceTree = "<group>"; };
+		DAA80EF92C5302C300B6D661 /* AppIconPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconPickerView.swift; sourceTree = "<group>"; };
+		DAA80EFD2C53045400B6D661 /* Markdownosaur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdownosaur.swift; sourceTree = "<group>"; };
+		DAA80F052C5304A900B6D661 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
+		DAB215202C4AD3D600C9AF84 /* iOriginal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOriginal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB215232C4AD3D600C9AF84 /* iOriginalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOriginalApp.swift; sourceTree = "<group>"; };
+		DAB215252C4AD3D600C9AF84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAB215272C4AD3D800C9AF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB2152A2C4AD3D800C9AF84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAB215342C4AD51A00C9AF84 /* iPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneViewController.swift; sourceTree = "<group>"; };
+		DAB215362C4AD53500C9AF84 /* iPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadViewController.swift; sourceTree = "<group>"; };
+		DAB215382C4AD54600C9AF84 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAB2153A2C4AD56200C9AF84 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DAB2153F2C4AD78D00C9AF84 /* WallpapersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpapersModel.swift; sourceTree = "<group>"; };
+		DAB215442C4AD8D900C9AF84 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DAB2154B2C4AE24E00C9AF84 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DAB56E732C8621FE00813077 /* DeviceHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHomeViewController.swift; sourceTree = "<group>"; };
+		DAB9F0B82C4F11840027F4BE /* MacOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSViewController.swift; sourceTree = "<group>"; };
+		DAE84FCE2C4BCA4500A0BA62 /* iPadWallpapersDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadWallpapersDataModel.swift; sourceTree = "<group>"; };
+		DAE90AFD2C739FAD002DBDF3 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		DAF7B8472C6A6FD8007807D6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DAF7B8492C6A6FD8007807D6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DAF7E5E62C4F1DBD008EC730 /* MacWallpapersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacWallpapersModel.swift; sourceTree = "<group>"; };
+		DAF80C3E2C8B41D200564C45 /* iPodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPodViewController.swift; sourceTree = "<group>"; };
+		DAF80C8B2C8B4B4300564C45 /* DetailsViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController1.swift; sourceTree = "<group>"; };
+		DAF87B1F2CD4E23D00A1BF9B /* DeviceChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceChecker.swift; sourceTree = "<group>"; };
+		DAFEA5B62CE2995A0077624A /* LiveWallpapersViewControllerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWallpapersViewControllerHandler.swift; sourceTree = "<group>"; };
+		DAFEA5B82CE2997B0077624A /* AppIconsViewControllerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconsViewControllerHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DA22BA2B2CC6F30700FF5CE9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DA22BA132CC6F30500FF5CE9 /* iOriginalWidgetsExtensionExtension */;
+		};
+		DA22BA2D2CC6F64300FF5CE9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				iOriginalWidgetsExtensionControl.swift,
+				iOriginalWidgetsExtensionLiveActivity.swift,
+			);
+			target = DAB2151F2C4AD3D600C9AF84 /* iOriginal */;
+		};
+		DAF80C8A2C8B48DD00564C45 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				iPadWallpapersDeviceData.swift,
+				iPhoneWallpapersModel.swift,
+				iPodWallpapersModel.swift,
+			);
+			target = DAB2151F2C4AD3D600C9AF84 /* iOriginal */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA22BA172CC6F30500FF5CE9 /* iOriginalWidgetsExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (DA22BA2D2CC6F64300FF5CE9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, DA22BA2B2CC6F30700FF5CE9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = iOriginalWidgetsExtension; sourceTree = "<group>"; };
+		DA536E2A2D2461B9002CEE05 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+		DA536E2D2D246212002CEE05 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		DAF80C862C8B48BC00564C45 /* Devices Wallpapers Data Model */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (DAF80C8A2C8B48DD00564C45 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Devices Wallpapers Data Model"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA22BA112CC6F30500FF5CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA22BA162CC6F30500FF5CE9 /* SwiftUI.framework in Frameworks */,
+				DA22BA152CC6F30500FF5CE9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2151D2C4AD3D600C9AF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB215542C4AF75600C9AF84 /* Markdownosaur in Frameworks */,
+				DAB215332C4AD41F00C9AF84 /* SDWebImageSwiftUI in Frameworks */,
+				DA22B9B52CC6D8C100FF5CE9 /* UpdateKit in Frameworks */,
+				DAB215512C4AF73600C9AF84 /* Markdown in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA48432D2C81F34C0041B4AB /* DevicesViews */ = {
+			isa = PBXGroup;
+			children = (
+				DAF80C862C8B48BC00564C45 /* Devices Wallpapers Data Model */,
+				DA48432E2C81F3730041B4AB /* iPhoneViewControllerHandler.swift */,
+				DA4843302C81F39E0041B4AB /* iPadViewControllerHandler.swift */,
+				DAF80C3E2C8B41D200564C45 /* iPodViewController.swift */,
+				DA091E0F2CF51DE000E1F784 /* iPadViewDataModel.swift */,
+				DA091E112CF51E6300E1F784 /* iPadWallpapersGalleryView.swift */,
+				DA57F3DC2D25502400A327FF /* ViewContentsFile.swift */,
+			);
+			path = DevicesViews;
+			sourceTree = "<group>";
+		};
+		DA52219F2CCAD7AC00765B82 /* PhoneLiveActivities */ = {
+			isa = PBXGroup;
+			children = (
+				DA5221A22CCAD7F700765B82 /* PhoneLiveActivityModel.swift */,
+				DA5221A02CCAD7DF00765B82 /* PhoneLiveActivityView.swift */,
+				DAF87B1F2CD4E23D00A1BF9B /* DeviceChecker.swift */,
+			);
+			path = PhoneLiveActivities;
+			sourceTree = "<group>";
+		};
+		DA7E47A82C5D2FA300E61911 /* iOS Motion wallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				DA7E47A92C5D2FFF00E61911 /* iOS11View.swift */,
+				DA7E47AB2C5D300A00E61911 /* iOS12View.swift */,
+				DA7E47AD2C5D301500E61911 /* iOS13View.swift */,
+				DA7E47AF2C5D302800E61911 /* iOS14View.swift */,
+				DA7E47B12C5D303600E61911 /* iOS15View.swift */,
+				DA7E47B32C5D378300E61911 /* VideoDetailView.swift */,
+			);
+			path = "iOS Motion wallpapers";
+			sourceTree = "<group>";
+		};
+		DA85B2022C52E45F0043D071 /* AppIconPickerFolder */ = {
+			isa = PBXGroup;
+			children = (
+				DAA80EF72C5302AD00B6D661 /* AppIconPickerModel.swift */,
+				DAA80EF92C5302C300B6D661 /* AppIconPickerView.swift */,
+			);
+			path = AppIconPickerFolder;
+			sourceTree = "<group>";
+		};
+		DAB215172C4AD3D600C9AF84 = {
+			isa = PBXGroup;
+			children = (
+				DAB215222C4AD3D600C9AF84 /* iOriginal */,
+				DA22BA172CC6F30500FF5CE9 /* iOriginalWidgetsExtension */,
+				DAF7B8462C6A6FD8007807D6 /* Frameworks */,
+				DAB215212C4AD3D600C9AF84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB215212C4AD3D600C9AF84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB215202C4AD3D600C9AF84 /* iOriginal.app */,
+				DA22BA142CC6F30500FF5CE9 /* iOriginalWidgetsExtensionExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB215222C4AD3D600C9AF84 /* iOriginal */ = {
+			isa = PBXGroup;
+			children = (
+				DA653E652D84B5CD00AB014B /* MacIconPreview.swift */,
+				DA536E2D2D246212002CEE05 /* Views */,
+				DA536E2A2D2461B9002CEE05 /* Models */,
+				DA7E47B52C5D4D2900E61911 /* Info.plist */,
+				DA5E83232C4E9EE600897AAB /* iOriginal.entitlements */,
+				DAB2154A2C4AE23400C9AF84 /* Settings */,
+				DAB215432C4AD8B700C9AF84 /* ViewControllers */,
+				DAB215232C4AD3D600C9AF84 /* iOriginalApp.swift */,
+				DAB215252C4AD3D600C9AF84 /* ContentView.swift */,
+				DAB215342C4AD51A00C9AF84 /* iPhoneViewController.swift */,
+				DAB215362C4AD53500C9AF84 /* iPadViewController.swift */,
+				DAB9F0B82C4F11840027F4BE /* MacOSViewController.swift */,
+				DAB215382C4AD54600C9AF84 /* HomeViewController.swift */,
+				DAB56E732C8621FE00813077 /* DeviceHomeViewController.swift */,
+				DA48432D2C81F34C0041B4AB /* DevicesViews */,
+				DA7E47A62C5D203700E61911 /* AnimatedWallpapersViewController.swift */,
+				DA1BDB192C5FB8B100A63FBD /* ExtraFeaturesViewController.swift */,
+				DA1BDB152C5FB47D00A63FBD /* AppIconsViewController.swift */,
+				DA653E632D84B49700AB014B /* MacOSAppIconsViewController.swift */,
+				DA1BDB172C5FB4AE00A63FBD /* AppIconsDataModel.swift */,
+				DA1BDB1B2C5FC41400A63FBD /* IconPreviewView.swift */,
+				DA7E47A82C5D2FA300E61911 /* iOS Motion wallpapers */,
+				DAB2153E2C4AD77400C9AF84 /* Wallpaper Data Model */,
+				DAB215272C4AD3D800C9AF84 /* Assets.xcassets */,
+				DAB215292C4AD3D800C9AF84 /* Preview Content */,
+				DAFEA5B62CE2995A0077624A /* LiveWallpapersViewControllerHandler.swift */,
+				DAFEA5B82CE2997B0077624A /* AppIconsViewControllerHandler.swift */,
+				DA1DC70A2D25E2E9004E9357 /* AppsiOSView.swift */,
+				DA1DC70C2D25E2FE004E9357 /* AppsmacOSView.swift */,
+			);
+			path = iOriginal;
+			sourceTree = "<group>";
+		};
+		DAB215292C4AD3D800C9AF84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2152A2C4AD3D800C9AF84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAB2153E2C4AD77400C9AF84 /* Wallpaper Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2153F2C4AD78D00C9AF84 /* WallpapersModel.swift */,
+				DAE84FCE2C4BCA4500A0BA62 /* iPadWallpapersDataModel.swift */,
+				DAF7E5E62C4F1DBD008EC730 /* MacWallpapersModel.swift */,
+				DA7E47A42C5D11CB00E61911 /* MotionWallpaperDataModel.swift */,
+			);
+			path = "Wallpaper Data Model";
+			sourceTree = "<group>";
+		};
+		DAB215432C4AD8B700C9AF84 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAF80C8B2C8B4B4300564C45 /* DetailsViewController1.swift */,
+				DAB215442C4AD8D900C9AF84 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DAB2154A2C4AE23400C9AF84 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DA52219F2CCAD7AC00765B82 /* PhoneLiveActivities */,
+				DA85B2022C52E45F0043D071 /* AppIconPickerFolder */,
+				DAB2153A2C4AD56200C9AF84 /* SettingsViewController.swift */,
+				DAB2154B2C4AE24E00C9AF84 /* AboutViewController.swift */,
+				DAA80EFD2C53045400B6D661 /* Markdownosaur.swift */,
+				DAA80F052C5304A900B6D661 /* CreditsViewController.swift */,
+				DAE90AFD2C739FAD002DBDF3 /* ThemeView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DAF7B8462C6A6FD8007807D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF7B8472C6A6FD8007807D6 /* WidgetKit.framework */,
+				DAF7B8492C6A6FD8007807D6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA22BA132CC6F30500FF5CE9 /* iOriginalWidgetsExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA22BA2A2CC6F30700FF5CE9 /* Build configuration list for PBXNativeTarget "iOriginalWidgetsExtensionExtension" */;
+			buildPhases = (
+				DA22BA102CC6F30500FF5CE9 /* Sources */,
+				DA22BA112CC6F30500FF5CE9 /* Frameworks */,
+				DA22BA122CC6F30500FF5CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DA22BA172CC6F30500FF5CE9 /* iOriginalWidgetsExtension */,
+			);
+			name = iOriginalWidgetsExtensionExtension;
+			packageProductDependencies = (
+			);
+			productName = iOriginalWidgetsExtensionExtension;
+			productReference = DA22BA142CC6F30500FF5CE9 /* iOriginalWidgetsExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DAB2151F2C4AD3D600C9AF84 /* iOriginal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2152E2C4AD3D800C9AF84 /* Build configuration list for PBXNativeTarget "iOriginal" */;
+			buildPhases = (
+				DAB2151C2C4AD3D600C9AF84 /* Sources */,
+				DAB2151D2C4AD3D600C9AF84 /* Frameworks */,
+				DAB2151E2C4AD3D600C9AF84 /* Resources */,
+				DAAD49E42CA1C0B6000DCF64 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA22BA262CC6F30700FF5CE9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA536E2A2D2461B9002CEE05 /* Models */,
+				DA536E2D2D246212002CEE05 /* Views */,
+			);
+			name = iOriginal;
+			packageProductDependencies = (
+				DAB215322C4AD41F00C9AF84 /* SDWebImageSwiftUI */,
+				DAB215502C4AF73600C9AF84 /* Markdown */,
+				DAB215532C4AF75600C9AF84 /* Markdownosaur */,
+				DA22B9B42CC6D8C100FF5CE9 /* UpdateKit */,
+			);
+			productName = AppleWallpapers;
+			productReference = DAB215202C4AD3D600C9AF84 /* iOriginal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB215182C4AD3D600C9AF84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DA22BA132CC6F30500FF5CE9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DAB2151F2C4AD3D600C9AF84 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = DAB2151B2C4AD3D600C9AF84 /* Build configuration list for PBXProject "iOriginal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB215172C4AD3D600C9AF84;
+			packageReferences = (
+				DAB215312C4AD41F00C9AF84 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				DAB2154F2C4AF73600C9AF84 /* XCRemoteSwiftPackageReference "swift-markdown" */,
+				DAB215522C4AF75600C9AF84 /* XCRemoteSwiftPackageReference "Markdownosaur" */,
+				DA22B9B32CC6D8C100FF5CE9 /* XCLocalSwiftPackageReference "../UpdateKit" */,
+			);
+			productRefGroup = DAB215212C4AD3D600C9AF84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB2151F2C4AD3D600C9AF84 /* iOriginal */,
+				DA22BA132CC6F30500FF5CE9 /* iOriginalWidgetsExtensionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA22BA122CC6F30500FF5CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5221A72CCAE8B100765B82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2151E2C4AD3D600C9AF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2152B2C4AD3D800C9AF84 /* Preview Assets.xcassets in Resources */,
+				DAB215282C4AD3D800C9AF84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA22BA102CC6F30500FF5CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5221A52CCADE1200765B82 /* PhoneLiveActivityView.swift in Sources */,
+				DAF87B202CD4E23D00A1BF9B /* DeviceChecker.swift in Sources */,
+				DA5221A42CCADDDC00765B82 /* PhoneLiveActivityModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2151C2C4AD3D600C9AF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA57F3DD2D25502400A327FF /* ViewContentsFile.swift in Sources */,
+				DAF80C3F2C8B41D200564C45 /* iPodViewController.swift in Sources */,
+				DA7E47A52C5D11CB00E61911 /* MotionWallpaperDataModel.swift in Sources */,
+				DAFEA5B72CE2995A0077624A /* LiveWallpapersViewControllerHandler.swift in Sources */,
+				DA4843312C81F39E0041B4AB /* iPadViewControllerHandler.swift in Sources */,
+				DAB215392C4AD54600C9AF84 /* HomeViewController.swift in Sources */,
+				DA7E47AE2C5D301500E61911 /* iOS13View.swift in Sources */,
+				DA091E122CF51E6300E1F784 /* iPadWallpapersGalleryView.swift in Sources */,
+				DAA80F062C5304A900B6D661 /* CreditsViewController.swift in Sources */,
+				DAF80C8C2C8B4B4300564C45 /* DetailsViewController1.swift in Sources */,
+				DAB9F0B92C4F11840027F4BE /* MacOSViewController.swift in Sources */,
+				DA1BDB162C5FB47D00A63FBD /* AppIconsViewController.swift in Sources */,
+				DA7E47A72C5D203700E61911 /* AnimatedWallpapersViewController.swift in Sources */,
+				DAB215452C4AD8D900C9AF84 /* DetailsViewController.swift in Sources */,
+				DAF7E5E72C4F1DBD008EC730 /* MacWallpapersModel.swift in Sources */,
+				DA1BDB1A2C5FB8B100A63FBD /* ExtraFeaturesViewController.swift in Sources */,
+				DAB215372C4AD53500C9AF84 /* iPadViewController.swift in Sources */,
+				DA7E47B02C5D302800E61911 /* iOS14View.swift in Sources */,
+				DAB215402C4AD78D00C9AF84 /* WallpapersModel.swift in Sources */,
+				DA7E47AC2C5D300A00E61911 /* iOS12View.swift in Sources */,
+				DA653E642D84B4A700AB014B /* MacOSAppIconsViewController.swift in Sources */,
+				DAFEA5B92CE2997B0077624A /* AppIconsViewControllerHandler.swift in Sources */,
+				DA653E662D84B5D700AB014B /* MacIconPreview.swift in Sources */,
+				DAB2154C2C4AE24E00C9AF84 /* AboutViewController.swift in Sources */,
+				DAE90AFE2C739FAD002DBDF3 /* ThemeView.swift in Sources */,
+				DA48432F2C81F3730041B4AB /* iPhoneViewControllerHandler.swift in Sources */,
+				DA5221A32CCAD80600765B82 /* PhoneLiveActivityModel.swift in Sources */,
+				DAA80EF82C5302AD00B6D661 /* AppIconPickerModel.swift in Sources */,
+				DAB215352C4AD51A00C9AF84 /* iPhoneViewController.swift in Sources */,
+				DA1DC70B2D25E2E9004E9357 /* AppsiOSView.swift in Sources */,
+				DA5221A12CCAD7DF00765B82 /* PhoneLiveActivityView.swift in Sources */,
+				DA091E102CF51DE000E1F784 /* iPadViewDataModel.swift in Sources */,
+				DA1BDB182C5FB4AE00A63FBD /* AppIconsDataModel.swift in Sources */,
+				DAB215262C4AD3D600C9AF84 /* ContentView.swift in Sources */,
+				DAF87B212CD4E23D00A1BF9B /* DeviceChecker.swift in Sources */,
+				DAA80EFA2C5302C300B6D661 /* AppIconPickerView.swift in Sources */,
+				DA7E47AA2C5D2FFF00E61911 /* iOS11View.swift in Sources */,
+				DA7E47B22C5D303600E61911 /* iOS15View.swift in Sources */,
+				DAB215242C4AD3D600C9AF84 /* iOriginalApp.swift in Sources */,
+				DAE84FCF2C4BCA4500A0BA62 /* iPadWallpapersDataModel.swift in Sources */,
+				DAA80EFE2C53045400B6D661 /* Markdownosaur.swift in Sources */,
+				DA1BDB1C2C5FC41400A63FBD /* IconPreviewView.swift in Sources */,
+				DA1DC70D2D25E2FE004E9357 /* AppsmacOSView.swift in Sources */,
+				DAB2153B2C4AD56200C9AF84 /* SettingsViewController.swift in Sources */,
+				DA7E47B42C5D378300E61911 /* VideoDetailView.swift in Sources */,
+				DAB56E742C8621FE00813077 /* DeviceHomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA22BA262CC6F30700FF5CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = DA22BA132CC6F30500FF5CE9 /* iOriginalWidgetsExtensionExtension */;
+			targetProxy = DA22BA252CC6F30700FF5CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA22BA282CC6F30700FF5CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 364Y532LM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOriginalWidgetsExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iOriginalWidgetsExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pietrogambatesa.iOriginal.iOriginalWidgetsExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA22BA292CC6F30700FF5CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 364Y532LM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOriginalWidgetsExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iOriginalWidgetsExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pietrogambatesa.iOriginal.iOriginalWidgetsExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB2152C2C4AD3D800C9AF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB2152D2C4AD3D800C9AF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB2152F2C4AD3D800C9AF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = iOriginal/iOriginal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOriginal/Preview Content\"";
+				DEVELOPMENT_TEAM = 364Y532LM5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOriginal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iOriginal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "iOriginal needs to access your photo library in order to save photo and videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "iOriginal needs to access your photo library in order to save wallpapers into it";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pietrogambatesa.iOriginal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		DAB215302C4AD3D800C9AF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = iOriginal/iOriginal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOriginal/Preview Content\"";
+				DEVELOPMENT_TEAM = 364Y532LM5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOriginal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iOriginal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "iOriginal needs to access your photo library in order to save photo and videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "iOriginal needs to access your photo library in order to save wallpapers into it";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pietrogambatesa.iOriginal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA22BA2A2CC6F30700FF5CE9 /* Build configuration list for PBXNativeTarget "iOriginalWidgetsExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA22BA282CC6F30700FF5CE9 /* Debug */,
+				DA22BA292CC6F30700FF5CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2151B2C4AD3D600C9AF84 /* Build configuration list for PBXProject "iOriginal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2152C2C4AD3D800C9AF84 /* Debug */,
+				DAB2152D2C4AD3D800C9AF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2152E2C4AD3D800C9AF84 /* Build configuration list for PBXNativeTarget "iOriginal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2152F2C4AD3D800C9AF84 /* Debug */,
+				DAB215302C4AD3D800C9AF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DA22B9B32CC6D8C100FF5CE9 /* XCLocalSwiftPackageReference "../UpdateKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../UpdateKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAB215312C4AD41F00C9AF84 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		DAB2154F2C4AF73600C9AF84 /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-markdown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		DAB215522C4AF75600C9AF84 /* XCRemoteSwiftPackageReference "Markdownosaur" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/christianselig/Markdownosaur.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA22B9B42CC6D8C100FF5CE9 /* UpdateKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UpdateKit;
+		};
+		DAB215322C4AD41F00C9AF84 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAB215312C4AD41F00C9AF84 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		DAB215502C4AF73600C9AF84 /* Markdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAB2154F2C4AF73600C9AF84 /* XCRemoteSwiftPackageReference "swift-markdown" */;
+			productName = Markdown;
+		};
+		DAB215532C4AF75600C9AF84 /* Markdownosaur */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAB215522C4AF75600C9AF84 /* XCRemoteSwiftPackageReference "Markdownosaur" */;
+			productName = Markdownosaur;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DAB215182C4AD3D600C9AF84 /* Project object */;
+}

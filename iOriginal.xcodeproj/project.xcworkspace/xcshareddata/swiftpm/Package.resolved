@@ -1,0 +1,51 @@
+{
+  "originHash" : "c53cbfeacac4eacf22c4e35a73367334c0a09edced2391b8b0a1a925b615de54",
+  "pins" : [
+    {
+      "identity" : "markdownosaur",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/christianselig/Markdownosaur.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "25c32718674f47dded5d3be5d8d9a40e5ce8058c"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "be0bcd7823ce56629948491f2eaeaa19979514f7",
+        "version" : "5.19.4"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+      "state" : {
+        "revision" : "5d462f7530677ae0c2b9510c26383aa25ba48751",
+        "version" : "3.1.1"
+      }
+    },
+    {
+      "identity" : "swift-cmark",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-cmark.git",
+      "state" : {
+        "branch" : "gfm",
+        "revision" : "fc07ab5da47975c5ef5f336acadfc02e8f706d30"
+      }
+    },
+    {
+      "identity" : "swift-markdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-markdown.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d21714073e0d16ba78eebdf36724863afc36871d"
+      }
+    }
+  ],
+  "version" : 3
+}
