@@ -36,6 +36,7 @@ let viewContents = [
     ViewContent(osName: "iOS 17", year: "2023", osImage: "iOS-17-Logo-500x281", attachedView: AnyView(OSMiddleView(osName: "iOS 17", wallpapers: wallpaperData))),
     ViewContent(osName: "iOS 18", year: "2024", osImage: "iOS-18-Logo-500x281", attachedView: AnyView(OSMiddleView(osName: "iOS 18", wallpapers: wallpaperData))),
     ViewContent(osName: "iOS 26", year: "2025", osImage: "IOS_26_icon", attachedView: AnyView(OSMiddleView(osName: "iOS 26", wallpapers: wallpaperData))),
+    ViewContent(osName: "iOS 27", year: "2026", osImage: "ios-27-logo", attachedView: AnyView(OSMiddleView(osName: "iOS 27", wallpapers: wallpaperData))),
 
 ]
 
@@ -57,6 +58,7 @@ let iPadviewContents = [
     ViewContent(osName: "iPadOS 17", year: "2023", osImage: "ipados-17-badge-icon", attachedView: AnyView(OSMiddleView2(osName: "iPadOS 17", wallpapers: iPadWallpapers))),
     ViewContent(osName: "iPadOS 18", year: "2024", osImage: "ipados-18-num-96x96_2x", attachedView: AnyView(OSMiddleView2(osName: "iPadOS 18", wallpapers: iPadWallpapers))),
     ViewContent(osName: "iPadOS 26", year: "2025", osImage: "IOS_26_icon-2", attachedView: AnyView(OSMiddleView2(osName: "iPadOS 26", wallpapers: iPadWallpapers))),
+    ViewContent(osName: "iPadOS 27", year: "2026", osImage: "ios-27-logo", attachedView: AnyView(OSMiddleView2(osName: "iPadOS 27", wallpapers: iPadWallpapers))),
 
     
 ]
@@ -78,7 +80,7 @@ let MacviewContents = [
     ViewContent(osName: "macOS Sonoma 14.0", year: "2023", osImage: "MacOS_Sonoma_logo", attachedView: AnyView(OSMiddleView3(osName: "macOS Sonoma 14.0", wallpapers: macWallpapers))),
     ViewContent(osName: "macOS Sequoia 15.0", year: "2024", osImage: "MacOS_Sequoia_logo", attachedView: AnyView(OSMiddleView3(osName: "macOS Sequoia 15.0", wallpapers: macWallpapers))),
     ViewContent(osName: "macOS Tahoe 26.0", year: "2025", osImage: "macos-26-256x256", attachedView: AnyView(OSMiddleView3(osName: "macOS Tahoe 26.0", wallpapers: macWallpapers))),
-
+    ViewContent(osName: "macOS Golden Gate 27.0", year: "2026", osImage: "macos-27-logo", attachedView: AnyView(OSMiddleView3(osName: "macOS Golden Gate 27.0", wallpapers: macWallpapers))),
     
 ]
 

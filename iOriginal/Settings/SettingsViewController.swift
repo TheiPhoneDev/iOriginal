@@ -194,8 +194,8 @@ struct SettingsViewController: View {
 }
 
 public let notes1: [UpdateNotes] = [
-    .init(updateNoteImageType: "Symbol", updateNoteImage: "macbook.and.iphone", updateNoteTitle: "New OSes app icons 📱💻", updateNoteDescription: "iOriginal 2.0 brings all the new app icons introduced by Apple in the new OSes versions at WWDC25."),
-    .init(updateNoteImageType: "Image", updateNoteImage: "macos-26-256x256", updateNoteTitle: "Support for iOS 26", updateNoteDescription: "iOriginal 2.0 supports the new Liquid Glass design system introduced in iOS 26."),
+    .init(updateNoteImageType: "Symbol", updateNoteImage: "macbook.and.iphone", updateNoteTitle: "New OSes app icons 📱💻", updateNoteDescription: "iOriginal 3.0 brings all the new app icons introduced by Apple in the new OSes versions at WWDC26."),
+    .init(updateNoteImageType: "Image", updateNoteImage: "macos-27-logo", updateNoteTitle: "Support for iOS 27", updateNoteDescription: "iOriginal 3.0 adds support for iOS 27."),
     
     
 ]

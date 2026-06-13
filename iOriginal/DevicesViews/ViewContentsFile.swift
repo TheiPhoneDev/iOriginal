@@ -97,7 +97,7 @@ let appsviewContents = [
     ViewContent(osName: "iOS 17", year: "2023", osImage: "iOS-17-Logo-500x281", attachedView: AnyView(AppIconsViewController(osName: "iOS 17", appIcons: appIconData))),
     ViewContent(osName: "iOS 18", year: "2024", osImage: "iOS-18-Logo-500x281", attachedView: AnyView(AppIconsViewController(osName: "iOS 18", appIcons: appIconData))),
     ViewContent(osName: "iOS 26", year: "2025", osImage: "IOS_26_icon", attachedView: AnyView(AppIconsViewController(osName: "iOS 26", appIcons: appIconData))),
-
+    ViewContent(osName: "iOS 27", year: "2026", osImage: "ios-27-logo", attachedView: AnyView(AppIconsViewController(osName: "iOS 27", appIcons: appIconData))),
     
 ]
 
@@ -118,6 +118,7 @@ let macOSViewContent = [
     ViewContent(osName: "macOS Sonoma (14.0)", year: "2023", osImage: "MacOS_Sonoma_logo", attachedView: AnyView(MacOSAppIconsViewController(osName: "macOS Sonoma (14.0)", appIcons: macAppIconsData))),
     ViewContent(osName: "macOS Sequoia (15.0)", year: "2024", osImage: "MacOS_Sequoia_logo", attachedView: AnyView(MacOSAppIconsViewController(osName:  "macOS Sequoia (15.0)", appIcons: macAppIconsData))),
     ViewContent(osName: "macOS Tahoe (26.0)", year: "2025", osImage: "macos-26-256x256", attachedView: AnyView(MacOSAppIconsViewController(osName:  "macOS Tahoe (26.0)", appIcons: macAppIconsData))),
+    ViewContent(osName: "macOS Golden Gate (27.0)", year: "2026", osImage: "macos-27-logo", attachedView: AnyView(MacOSAppIconsViewController(osName:  "macOS Golden Gate (27.0)", appIcons: macAppIconsData))),
 
 ]
 

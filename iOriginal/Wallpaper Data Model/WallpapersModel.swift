@@ -604,5 +604,8 @@ let wallpaperData = [
     WallpapersModel(wallpaperImage: "https://github.com/TheiPhoneDev/Backup2/blob/main/IMG_3197.png?raw=true", wallpaperName: "261", osVersion: "iOS 26", year: "2025", os: "iOS", platform: "iPhone"),
     WallpapersModel(wallpaperImage: "https://github.com/TheiPhoneDev/Backup2/blob/main/IMG_3198.png?raw=true", wallpaperName: "262", osVersion: "iOS 26", year: "2025", os: "iOS", platform: "iPhone"),
 
+    //iOS 27
+    WallpapersModel(wallpaperImage: "https://github.com/TheiPhoneDev/iOriginal/blob/main/WWDC%202026/OSes%20wallpapers/iOS%2027/iPhone.png?raw=true", wallpaperName: "261", osVersion: "iOS 27", year: "2026", os: "iOS", platform: "iPhone"),
+    WallpapersModel(wallpaperImage: "https://github.com/TheiPhoneDev/iOriginal/blob/main/WWDC%202026/OSes%20wallpapers/iOS%2027/iPhone%20copy.png?raw=true", wallpaperName: "262", osVersion: "iOS 27", year: "2026", os: "iOS", platform: "iPhone"),
 
 ]

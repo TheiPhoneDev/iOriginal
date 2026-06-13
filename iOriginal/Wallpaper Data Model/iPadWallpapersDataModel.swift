@@ -552,5 +552,9 @@ let iPadWallpapers = [
     iPadWallpapersDataModel(wallpaperImage: "https://github.com/TheiPhoneDev/Backup2/blob/main/IMG_3200.png?raw=true", wallpaperName: "261", osVersion: "iPadOS 26", year: "2025", os: "iPadOS", platform: "iPad"),
     iPadWallpapersDataModel(wallpaperImage: "https://github.com/TheiPhoneDev/Backup2/blob/main/IMG_3199.png?raw=true", wallpaperName: "262", osVersion: "iPadOS 26", year: "2025", os: "iPadOS", platform: "iPad"),
     
+    //iPadOS 27
+    iPadWallpapersDataModel(wallpaperImage: "https://github.com/TheiPhoneDev/iOriginal/blob/main/WWDC%202026/OSes%20wallpapers/iOS%2027/iPad.png?raw=true", wallpaperName: "261", osVersion: "iPadOS 27", year: "2026", os: "iPadOS", platform: "iPad"),
+    iPadWallpapersDataModel(wallpaperImage: "https://github.com/TheiPhoneDev/iOriginal/blob/main/WWDC%202026/OSes%20wallpapers/iOS%2027/iPad%20copy.png?raw=true", wallpaperName: "262", osVersion: "iPadOS 27", year: "2026", os: "iPadOS", platform: "iPad"),
+    
 
 ]

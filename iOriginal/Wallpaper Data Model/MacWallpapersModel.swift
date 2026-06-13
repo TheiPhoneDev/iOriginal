@@ -747,4 +747,8 @@ let macWallpapers = [
     MacWallpapersModel(wallpaperImage: "https://github.com/TheiPhoneDev/Backup2/blob/main/IMG_3202.png?raw=true", wallpaperName: "", osVersion: "macOS Tahoe 26.0", year: "2025", os: "macOS", platform: "Mac"),
     MacWallpapersModel(wallpaperImage: "https://github.com/TheiPhoneDev/Backup2/blob/main/IMG_3201.png?raw=true", wallpaperName: "", osVersion: "macOS Tahoe 26.0", year: "2025", os: "macOS", platform: "Mac"),
     
+    // macOS Golden Gate 27
+    MacWallpapersModel(wallpaperImage: "https://github.com/TheiPhoneDev/iOriginal/blob/main/WWDC%202026/OSes%20wallpapers/macOS%2027%20Golden%20Gate/Light.png?raw=true", wallpaperName: "", osVersion: "macOS Golden Gate 27.0", year: "2026", os: "macOS", platform: "Mac"),
+    MacWallpapersModel(wallpaperImage: "https://github.com/TheiPhoneDev/iOriginal/blob/main/WWDC%202026/OSes%20wallpapers/macOS%2027%20Golden%20Gate/Dark.png?raw=true", wallpaperName: "", osVersion: "macOS Golden Gate 27.0", year: "2026", os: "macOS", platform: "Mac"),
+    
 ]

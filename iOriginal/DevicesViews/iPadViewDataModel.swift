@@ -55,6 +55,8 @@ let iPadViewDataModelList: [iPadViewDataModel] = [
     iPadViewDataModel(ipadModelImage: "iPad Air 13 M2", ipadModelName: "iPad Air 13-inch M2", ipadModelYear: "2024", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadAirCollection, ipadModelName: "iPad Air 13 M2")), category: "Air"),
     iPadViewDataModel(ipadModelImage: "iPad Air 11 M3", ipadModelName: "iPad Air 11-inch M3", ipadModelYear: "2025", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadAirCollection, ipadModelName: "iPad Air 11 M3")), category: "Air"),
     iPadViewDataModel(ipadModelImage: "iPad Air 13 M3", ipadModelName: "iPad Air 13-inch M3", ipadModelYear: "2025", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadAirCollection, ipadModelName: "iPad Air 13 M3")), category: "Air"),
+    iPadViewDataModel(ipadModelImage: "iPad Air 11 M4", ipadModelName: "iPad Air 11-inch M4", ipadModelYear: "2026", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadAirCollection, ipadModelName: "iPad Air 11 M4")), category: "Air"),
+    iPadViewDataModel(ipadModelImage: "iPad Air 13 M4", ipadModelName: "iPad Air 13-inch M4", ipadModelYear: "2026", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadAirCollection, ipadModelName: "iPad Air 13 M4")), category: "Air"),
     
     
     //iPad Pros
@@ -72,6 +74,8 @@ let iPadViewDataModelList: [iPadViewDataModel] = [
     iPadViewDataModel(ipadModelImage: "iPad Pro 12.9 6th gen", ipadModelName: "iPad Pro 12.9-inch 6th gen", ipadModelYear: "2022", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadProCollection, ipadModelName: "iPad Pro 12.9 6th gen")), category: "Pro"),
     iPadViewDataModel(ipadModelImage: "iPad Pro 11 M4", ipadModelName: "iPad Pro 11-inch M4", ipadModelYear: "2024", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadProCollection, ipadModelName: "iPad Pro 11 M4")), category: "Pro"),
     iPadViewDataModel(ipadModelImage: "iPad Pro 13 M4", ipadModelName: "iPad Pro 13-inch M4", ipadModelYear: "2024", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadProCollection, ipadModelName: "iPad Pro 13 M4")), category: "Pro"),
+    iPadViewDataModel(ipadModelImage: "iPad Pro 11 M5", ipadModelName: "iPad Pro 11-inch M5", ipadModelYear: "2025", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadProCollection, ipadModelName: "iPad Pro 11 M5")), category: "Pro"),
+    iPadViewDataModel(ipadModelImage: "iPad Pro 13 M5", ipadModelName: "iPad Pro 13-inch M5", ipadModelYear: "2025", attachedView: AnyView(iPadWallpapersGalleryView(wallpapers: iPadProCollection, ipadModelName: "iPad Pro 13 M5")), category: "Pro"),
     
     
 ]
